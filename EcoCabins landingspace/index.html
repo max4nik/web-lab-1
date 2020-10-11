@@ -4,11 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<title>EcoCabins</title>
 </head>
 <body>
 	<header>
+		<div class="button-menu">
+			<div class="button-menu-burger"></div>
+		</div>
 		<div class="social">
 			<ul>
 				<li><a href="#">Instagram</a></li>
@@ -20,13 +23,13 @@
 			<a href="#">
 				<img src="css/img/logo.svg" alt="EcoCabins" class="top-logo">
 			</a>
-			<nav>
+			<nav class="nav">
 				<ul>
 					<li><a href="#">Modellen</a></li>
 					<li><a href="#">Kopen</a></li>
 					<li><a href="#">Huren</a></li>
 					<li><a href="#">Nieuws</a></li>
-					<li><a href="#" class='contact'>Contact</a></li>
+					<li><a href="#" class = "default-button contact"><span>Contact</span></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -49,24 +52,28 @@
 		
 	</header>
 	<container class="materials">
-		<div class="intro">
-			<div class="intro-header">
-					Durable materials
+		<div class="materials-info">
+			<div class="intro">
+				<div class="intro-header">
+						Durable materials
+				</div>
+				<div class="intro-text">
+					All EcoCabins have a high insulation value, are produced with sustainable and / or natural materials where possible and have the "round corners" as a striking external characteristic, made possible by the specific use of materials. The advantages of building with wood are many: wood is light, flexible, insulates well and builds quickly and efficiently.
+				</div>
+				<div class="read-more">
+					<a href="#" class = "default-button">Read more</a>
+				</div>
 			</div>
-			<div class="intro-text">
-				All EcoCabins have a high insulation value, are produced with sustainable and / or natural materials where possible and have the "round corners" as a striking external characteristic, made possible by the specific use of materials. The advantages of building with wood are many: wood is light, flexible, insulates well and builds quickly and efficiently.
-			</div>
-			<div class="read-more">
-				<a href="#">Read more</a>
-			</div>
-		</div>
-		<div class="img">
-			<img src="css/img/material.svg" alt="materials" class="material-img">
-			<div class="slider">
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
+			<div class="img">
+				<div class="materials-img">
+					<img src="css/img/material.svg" alt="materials">
+				</div>
+				<div class="slider">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
 			</div>
 		</div>
 	</container>
@@ -132,8 +139,7 @@
 							<span class="text-usp">De vloer wordt opgewarmd middels opgewekte warmte uit eigen zonne-energie.</span>
 				    	</div>
 					</div>
-				</div>
-						
+				</div>		
 			</div>
 		</div>
 	</container>
@@ -152,5 +158,6 @@
 			</div>
 		</div>
 	</footer>
+	<script src="main.js"></script>
 </body>
 </html>
